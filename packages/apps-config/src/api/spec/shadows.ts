@@ -280,7 +280,7 @@ export default {
   "TokenSymbol": {
     "_enum": [
       "DOS",
-      "AUSD",
+      "XUSD",
       "DOT",
       "XBTC",
       "LDOT",

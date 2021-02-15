@@ -55,13 +55,13 @@ export function createTesting (t: TFunction): LinkOption[] {
         Bifrost: 'wss://testnet.liebi.com'
       }
     },
-    // {
-    //   info: 'shadows',
-    //   text: t('rpc.shadows', 'Shadows', { ns: 'apps-config' }),
-    //   providers: {
-    //     Shadows: 'ws://119.45.201.48:9944'
-    //   }
-    // },
+    {
+      info: 'ombre',
+      text: t('rpc.ombre', 'Ombre', { ns: 'apps-config' }),
+      providers: {
+       'Shadows Network': 'ws://testnet.shadows.link:30544'
+      }
+    },
     {
       info: 'canvas',
       text: t('rpc.canvas', 'Canvas', { ns: 'apps-config' }),

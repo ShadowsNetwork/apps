@@ -34,6 +34,7 @@ const chainGalois = '#000000';
 const chainZero = '#000000';
 const chainJupiter = '#7143ff';
 const chainUniarts = '#b39ef7';
+const chainOmbre = '#2E2E2E';
 
 // based on node name
 // alphabetical
@@ -94,7 +95,8 @@ export const chainColors: Record<string, any> = [
   ['Westend', chainWestend],
   ['Galois', chainGalois],
   ['ZΞRO Alphaville', chainZero],
-  ['Uniarts', chainUniarts]
+  ['Uniarts', chainUniarts],
+  ['Ombre', chainOmbre]
 ].reduce((colors, [chain, color]): Record<string, any> => ({
   ...colors,
   [chain.toLowerCase()]: color

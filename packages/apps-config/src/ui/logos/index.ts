@@ -20,7 +20,7 @@ import externalPolkastats from './external/polkastats.png';
 import externalSubscan from './external/subscan.svg';
 import nodeAcala from './nodes/acala-circle.svg';
 import nodeBifrost from './nodes/bifrost.svg';
-import nodeShadows from './nodes/shadows.svg';
+import nodeOmbre from './nodes/ombre.svg';
 import nodeBitCountry from './nodes/bitcountry.svg';
 import nodeCanvas from './nodes/canvas-2.png';
 import nodeCentrifuge from './nodes/centrifuge.png';
@@ -78,7 +78,8 @@ export const chainLogos: Record<string, unknown> = [
   ['Tick', chainRococoTick],
   ['Track', chainRococoTrack],
   ['Trick', chainRococoTrick],
-  ['Uniarts', nodeUniarts]
+  ['Uniarts', nodeUniarts],
+  ['Ombre', nodeOmbre]
 ].reduce((logos, [chain, logo]): Record<string, unknown> => ({
   ...logos,
   [(chain as string).toLowerCase()]: logo
@@ -92,8 +93,6 @@ export const nodeLogos: Record<string, unknown> = [
   ['airalab-robonomics', nodeRobonomics],
   ['Bifrost Node', nodeBifrost],
   ['Bifrost', nodeBifrost],
-  ['Shadows Node', nodeShadows],
-  ['Shadows', nodeShadows],
   ['BitCountry Node', nodeBitCountry],
   ['Bit.Country', nodeBitCountry],
   ['Canvas Node', nodeCanvas],
@@ -134,7 +133,8 @@ export const nodeLogos: Record<string, unknown> = [
   ['Equilibrium Node', nodeEquilibrium],
   ['Equilibrium', nodeEquilibrium],
   ['SUBZΞRO', nodeZero],
-  ['Uniarts', nodeUniarts]
+  ['Uniarts', nodeUniarts],
+  ['Ombre', nodeOmbre],
 ].reduce((logos, [node, logo]): Record<string, unknown> => ({
   ...logos,
   [(node as string).toLowerCase().replace(/-/g, ' ')]: logo
@@ -189,7 +189,7 @@ export const namedLogos: Record<string, unknown> = {
   rococoTick: chainRococoTick,
   rococoTrack: chainRococoTrack,
   rococoTrick: chainRococoTrick,
-  shadows: nodeShadows,
+  ombre: nodeOmbre,
   'sora-substrate': nodeSora,
   stafi: nodeStafi,
   subsocial: nodeSubsocial,

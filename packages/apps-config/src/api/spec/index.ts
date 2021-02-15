@@ -1,7 +1,6 @@
 // Copyright 2017-2021 @polkadot/apps-config authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import shadows from './shadows';
 import bifrost from './bifrost';
 import bitcountry from './bitcountry';
 import canvas from './canvas';
@@ -33,6 +32,7 @@ import stafi from './stafi';
 import subsocial from './subsocial';
 import uniarts from './uniarts';
 import zero from './zero';
+import ombre from './ombre';
 
 // mapping from specName in state.getRuntimeVersion
 export default {
@@ -63,11 +63,11 @@ export default {
   plasm,
   'plasm-parachain': plasmParachain,
   robonomics,
-  shadows: shadows,
   'stable-poc': stablePoc,
   stable_poc: stablePoc,
   stafi,
   subsocial,
   subzero: zero,
-  uniarts: uniarts
+  uniarts: uniarts,
+  ombre,
 };
